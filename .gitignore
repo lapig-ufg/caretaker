@@ -1,0 +1,76 @@
+# === Python (Arquivos compilados e cache) ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# === Ambientes Virtuais (Virtual Environments) ===
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# === Gerenciadores de Pacotes Modernos (uv, Poetry, Pipenv) ===
+.uv/
+# Descomente a linha abaixo se REALMENTE quiser ignorar o uv.lock permanentemente
+# uv.lock
+
+# === Variáveis de Ambiente e Segredos (NUNCA ENVIAR) ===
+.env
+.env.*
+!.env.example
+secrets.json
+
+# === Ferramentas de Teste, Qualidade (Linter) e Cobertura ===
+.htmlcov/
+.tox/
+.nosetests/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.black
+.ruff
+
+# === IDEs e Editores de Código ===
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm / IntelliJ
+.idea/
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+uv.lock
+
